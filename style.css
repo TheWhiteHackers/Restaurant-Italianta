@@ -6,6 +6,7 @@ body{
     align-items: center;
     font-family: "Ojuju", sans-serif;
     letter-spacing: 2px;
+    background-color: #FCFCF2;
 }
 h1{
     margin: 50px 0px; 
@@ -18,6 +19,10 @@ h2{
     height: 120px;
     position: relative;
     background-color: rgb(215, 158, 84);
+    background-image: url("./pictures/backgrounndleaf2.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+
 }
 
 
@@ -26,11 +31,12 @@ h2{
 .topnav {
     overflow: hidden;
     background-color: #333;
+    border-radius: 5px;
   }
   
   .topnav a {
     float: left;
-    color: #f2f2f2;
+    color: #FCFCF2;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -38,11 +44,11 @@ h2{
   }
   
   .topnav a:hover {
-    background-color: #ddd;
+    background-color: #FCFCF2;
     color: black;
   }
   
   .topnav a.active {
-    background-color: #04AA6D;
-    color: white;
+    background-color: #B6CAA9;
+    color: #FCFCF2;
   }
